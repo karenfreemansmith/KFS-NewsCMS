@@ -1,2 +1,34 @@
-<h2>Login/Logout</h2>
-<p>Login/Logout for reporters/editors</p>
+<div id="login">
+  <h2>Login</h2>
+  <p>Login for reporters/editors</p>
+  <button>Login</button>
+</div>
+<div id="logout">
+  <h2>Logout</h2>
+  <p>Logout for reporters/editors</p>
+  <button>Logout</button>
+</div>
+
+<script>
+showPage();
+
+function showPage() {
+  if(localStorage['admin']==="true") {
+    $("#logout").show();
+    $("#login").hide();
+  } else {
+    $("#logout").hide();
+    $("#login").show();
+  }
+}
+
+$("button").click(function() {
+  if(localStorage['admin']==="true") {
+    localStorage['admin']="false";
+  } else {
+    localStorage['admin']="true";
+  }
+  showPage();
+});
+
+</script>

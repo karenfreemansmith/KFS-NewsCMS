@@ -17,6 +17,10 @@ body {
   padding: 2%;
 }
 
+#logout, #login {
+  display: none;
+}
+
 nav, .navbar, .navbar-nav li a, .navbar-brand, .dropdown, .dropdown-menu {
   color: $secondary;
   background-color: $primary;
