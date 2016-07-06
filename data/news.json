@@ -1,0 +1,16 @@
+{
+  "website":"my news",
+  "admin": ["joe", "sue"],
+  "colors": ["primary", "secondary", "contrast"],
+  "categories": [
+    {"world": [articles(title, text, byline)]}
+    "us",
+    "politics",
+    "life",
+    "sports",
+    "entertainment",
+    "opinion",
+    "comics"
+  ],
+
+}
