@@ -1,16 +1,43 @@
 {
-  "website":"my news",
-  "admin": ["joe", "sue"],
-  "colors": ["primary", "secondary", "contrast"],
   "categories": [
-    {"world": [articles(title, text, byline)]}
-    "us",
-    "politics",
-    "life",
-    "sports",
-    "entertainment",
-    "opinion",
-    "comics"
+    {
+      "name": "politics",
+      "articles": [
+        {
+          "title": "Clinton Email",
+          "text": "FBI says no indictment possible. Lorem Ipsum, blah, blah, blah...",
+          "author": "Rob Reporter"
+        },
+        {
+          "title": "Trump Likes Hitler",
+          "text": "He may have been a bad guy, but he didn't allow terrorists...",
+          "author": "Rhonda Reporter"
+        }
+      ]
+    },
+    {
+      "name": "world",
+      "articles": [
+        {
+          "title": "Airport Bombing",
+          "text": "Terror at airport in Instanbul. Lorem Ipsum, blah, blah, blah...",
+          "author": "Rob Reporter"
+        },
+        {
+          "title": "Brexit Fallout",
+          "text": "Britain experiences buyer remorse. Boris Johnson emigrates to US...",
+          "author": "Rhonda Reporter"
+        }
+      ]
+    },
+    {
+      "name": "us",
+      "articles": [ ]
+    }
   ],
+  "settings":{
+    "name": "My News",
+    "primary_color": "Sunflower"
+  }
 
 }
