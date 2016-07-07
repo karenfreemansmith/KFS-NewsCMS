@@ -1,18 +1,20 @@
-<div id="login">
-  <h2>Login</h2>
-  <p>Login for reporters/editors</p>
-  <button>Login</button>
+<div class="row">
+  <div class="col-xs-4"></div>
+  <div class="col-xs-4">
+    <div id="login">
+      <h2>Admin Login</h2>
+      <button>Login</button>
+    </div>
+    <div id="logout">
+      <h2>Admin Logout</h2>
+      <button>Logout</button>
+    </div>
+  </div>
+  <div class="col-xs-4"></div>
 </div>
-<div id="logout">
-  <h2>Logout</h2>
-  <p>Logout for reporters/editors</p>
-  <button>Logout</button>
-</div>
+
 
 <script>
-showPage();
-
-function showPage() {
   if(localStorage['admin']==="true") {
     $("#logout").show();
     $("#login").hide();
@@ -20,7 +22,6 @@ function showPage() {
     $("#logout").hide();
     $("#login").show();
   }
-}
 
 $("button").click(function() {
   if(localStorage['admin']==="true") {
@@ -28,7 +29,7 @@ $("button").click(function() {
   } else {
     localStorage['admin']="true";
   }
-  showPage();
+  location.reload();
 });
 
 </script>

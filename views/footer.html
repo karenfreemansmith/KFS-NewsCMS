@@ -1,5 +1,14 @@
 </div>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+if(localStorage['admin']==="true") {
+  $(".admin").show();
+  $(".login").hide();
+} else {
+  $(".admin").hide();
+  $(".login").show();
+}
+</script>
 </body>
 </html>
