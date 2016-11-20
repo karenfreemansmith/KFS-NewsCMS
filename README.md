@@ -20,3 +20,23 @@ __*A webpage to manage and display news stories.*__
 * 11. Add website settings page to "brand" the site.
 * 12. Add a page to upload (or add links to) assets like photo and video that can be inserted into stories.
 * 13. Add field from article editing page to select assets to complete the article. (one main photo/video, possibly multiple photos to a slider?)
+
+## Technologies Used
+HTML, CSS
+
+## Setup/Installation
+* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* _OR_
+* Clone diectory 
+* Open index.html in your favorite browser
+
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
+
+## Known Issues
+* None
+
+## Legal
+*Licensed under the GNU General Public License v3.0*
+
+Copyright (c) 2016 Copyright _[Karen Freeman-Smith](https://karenfreemansmith.github.io)_ All Rights Reserved.
